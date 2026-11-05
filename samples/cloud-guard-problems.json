@@ -1,0 +1,58 @@
+{
+  "problems": [
+    {
+      "id": "prob-1001",
+      "detector_rule_id": "INSTANCE_SSH_PUBLIC_ACCESS",
+      "severity": "CRITICAL",
+      "resource_name": "web-tier-1",
+      "resource_type": "INSTANCE",
+      "status": "OPEN",
+      "first_detected": "2026-11-05T14:22:10Z"
+    },
+    {
+      "id": "prob-1002",
+      "detector_rule_id": "INSTANCE_SSH_PUBLIC_ACCESS",
+      "severity": "CRITICAL",
+      "resource_name": "batch-worker-3",
+      "resource_type": "INSTANCE",
+      "status": "OPEN",
+      "first_detected": "2026-11-05T14:22:11Z"
+    },
+    {
+      "id": "prob-1003",
+      "detector_rule_id": "PUBLIC_OBJECT_STORAGE_BUCKET",
+      "severity": "HIGH",
+      "resource_name": "reports-archive",
+      "resource_type": "BUCKET",
+      "status": "OPEN",
+      "first_detected": "2026-11-05T15:03:44Z"
+    },
+    {
+      "id": "prob-1004",
+      "detector_rule_id": "VCN_FLOW_LOGS_DISABLED",
+      "severity": "MEDIUM",
+      "resource_name": "hub-vcn",
+      "resource_type": "VCN",
+      "status": "OPEN",
+      "first_detected": "2026-11-05T15:41:02Z"
+    },
+    {
+      "id": "prob-1005",
+      "detector_rule_id": "LB_NO_SSL",
+      "severity": "HIGH",
+      "resource_name": "legacy-lb",
+      "resource_type": "LOAD_BALANCER",
+      "status": "RESOLVED",
+      "first_detected": "2026-11-03T09:12:00Z"
+    },
+    {
+      "id": "prob-1006",
+      "detector_rule_id": "USER_NO_MFA",
+      "severity": "MEDIUM",
+      "resource_name": "temp-contractor",
+      "resource_type": "USER",
+      "status": "DISMISSED",
+      "first_detected": "2026-11-01T11:05:19Z"
+    }
+  ]
+}
