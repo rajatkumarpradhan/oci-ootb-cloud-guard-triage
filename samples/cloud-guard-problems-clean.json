@@ -1,0 +1,22 @@
+{
+  "problems": [
+    {
+      "id": "prob-2001",
+      "detector_rule_id": "VCN_FLOW_LOGS_DISABLED",
+      "severity": "MEDIUM",
+      "resource_name": "hub-vcn",
+      "resource_type": "VCN",
+      "status": "OPEN",
+      "first_detected": "2026-11-05T15:41:02Z"
+    },
+    {
+      "id": "prob-2002",
+      "detector_rule_id": "INSTANCE_SSH_PUBLIC_ACCESS",
+      "severity": "CRITICAL",
+      "resource_name": "web-tier-1",
+      "resource_type": "INSTANCE",
+      "status": "RESOLVED",
+      "first_detected": "2026-11-04T08:10:00Z"
+    }
+  ]
+}
